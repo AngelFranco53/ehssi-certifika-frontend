@@ -29,7 +29,7 @@
 
       <div class="flex justify-center bg-gray-400/20 rounded-lg p-4">
         <v-img
-          :src="`https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=${encodeURIComponent('http://localhost:3000/movil/' + props.value)}`"
+          :src="`https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=${encodeURIComponent('https://indigo-ferret-156776.hostingersite.com/movil/' + props.value)}`"
           alt="QR de acceso al curso"
           width="110"
           height="110"

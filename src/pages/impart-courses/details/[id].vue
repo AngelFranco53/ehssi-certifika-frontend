@@ -81,7 +81,7 @@ const { setPageHeader, clearHeaderAppend } = usePageHeader();
 const impartCourseStore = useImpartCourseStore();
 const route = useRoute();
 const showQrDialog = ref(false);
-const movilBasedUrl = import.meta.env.VITE_MOVIL_BASE_URL || 'http://localhost:3000/movil';
+const movilBasedUrl = 'https://indigo-ferret-156776.hostingersite.com/movil';
 
 const courseLabel = computed(() => {
   const details = impartCourseStore.getCourseDetails ?? {};

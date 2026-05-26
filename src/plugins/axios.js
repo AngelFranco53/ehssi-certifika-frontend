@@ -5,7 +5,7 @@ import { useOverlayStore } from '@/stores/app/overlayStore'
 import { useSonnerStore } from '@/stores/app/sonnerStore'
 
 const baseConfig = {
-    baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api',
+    baseURL: import.meta.env.VITE_API_BASE_URL || 'https://mediumorchid-finch-255582.hostingersite.com/api',
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json',
