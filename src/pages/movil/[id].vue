@@ -20,3 +20,7 @@ onMounted(() => {
     }
 })
 </script>
+
+<route lang="yaml">
+meta:
+</route>
