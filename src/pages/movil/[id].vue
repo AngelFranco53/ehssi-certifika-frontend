@@ -22,5 +22,6 @@ onMounted(() => {
 </script>
 
 <route lang="yaml">
-meta: movil
+meta:
+    layout: movil
 </route>
