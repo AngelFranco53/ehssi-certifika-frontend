@@ -1,11 +1,9 @@
 <template>
-  <v-app>
-    <v-main class="mobile-layout">
-      <div class="mobile-layout__frame">
-        <router-view />
-      </div>
-    </v-main>
-  </v-app>
+  <v-main class="mobile-layout">
+    <div class="mobile-layout__frame">
+      <router-view />
+    </div>
+  </v-main>
 </template>
 
 <style scoped>
