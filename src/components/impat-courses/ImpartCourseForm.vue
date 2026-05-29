@@ -20,7 +20,7 @@
                     <v-col cols="12" md="6">
                         <v-text-field
                             v-model="impartCourseStore.formData.companySupervisor"
-                            label="Nombre del supervisor"
+                            label="Patron o representante legal"
                             variant="outlined"
                             density="comfortable"
                             required
@@ -30,7 +30,7 @@
                     <v-col cols="12" md="6">
                         <v-text-field
                             v-model="impartCourseStore.formData.personnelSupervisor"
-                            label="Supervisor de personal"
+                            label="Representante de los trabajadores"
                             variant="outlined"
                             density="comfortable"
                             required

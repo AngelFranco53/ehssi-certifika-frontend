@@ -15,7 +15,7 @@
                     class="flex flex-col mr-4"
                 >
                     <p class="text-sm font-medium text-right">
-                        Jaime Franco
+                        Antonio Rodríguez
                     </p>
                     <p class="text-xs text-gray-500 text-right">
                         Administrador
